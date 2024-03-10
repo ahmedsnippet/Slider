@@ -3,7 +3,7 @@ let flag = 0;
 // To Display Image Slider
 const slideShow = (num) => {
   let slides = document.querySelectorAll(".slide");
-  console.log(slides);
+  // console.log(slides);
 
   // for of Loop Bcz Kisi chz ko dikhany sy Jo pehly sy mojuud hai wo hide kr do
 
