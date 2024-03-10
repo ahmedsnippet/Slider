@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    background-color: #fff;
+    padding: 8px 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.next{
+    right: 0;
+}
+.slide{
+    display: none;
+}
